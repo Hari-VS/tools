@@ -1,0 +1,43 @@
+Option Explicit
+
+' NAME:
+'
+'
+' VERSION:
+' 0.001
+'
+' SYNOPSIS:
+' Describe how to run process
+'
+' DESCRIPTION:
+' Describe what process does
+'
+Dim MyWorkbook As Excel.Workbook
+Dim MyWorksheet As Excel.Worksheet
+Dim MyChart As Excel.Chart
+Dim MyCell As Excel.Range
+Dim MyString As String
+Dim MyDate As Date
+Dim MyInt As Integer
+
+Sub Main()
+
+    ' Setting up to run macro...
+    Application.DisplayAlerts = False
+    Application.ScreenUpdating = False
+    Set MyWorkbook = Excel.ActiveWorkbook
+
+    Application.DisplayAlerts = True
+    Application.ScreenUpdating = True
+    MsgBox("Done!")
+
+End Sub
+
+' SUBROUTINES:
+'
+'     SUBROUTINEONE:
+'     Description of subroutine one
+
+Sub SubroutineOne()
+
+End Sub
