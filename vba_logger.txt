@@ -1,0 +1,6 @@
+Sub VBALogger(LogFile As String, Message As String)
+    ' Simple text file logger
+    Open LogFile For Output As MyLogFile
+    Print #MyLogFile, Message
+    Close MyLogFile
+End Sub
