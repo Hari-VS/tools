@@ -1,4 +1,4 @@
-title "Taylor's Environment"
+title "Taylor's Environment - Run With cmd /K C:/tools/taylor_env.cmd"
 
 doskey blng="C:\Program Files (x86)\PuTTY\putty.exe" -load BLNG
 
