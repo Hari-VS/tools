@@ -1,0 +1,8 @@
+Sub VBALogger(LogFile As String, Message As String)
+    ' Simple text file logger
+    Dim TextFile As Integer
+    TextFile = FreeFile
+    Open LogFile For Append As TextFile
+    Print #TextFile, Message
+    Close TextFile
+End Sub
