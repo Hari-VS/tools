@@ -18,6 +18,8 @@ doskey ny1coreclnt01="C:\Program Files (x86)\PuTTY\putty.exe" -load ny1coreclnt0
 
 doskey outlook="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE"
 
+doskey p4="C:\Program Files (x86)\Perforce\p4v.exe"
+
 doskey ppt="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
 
 doskey word="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE"
